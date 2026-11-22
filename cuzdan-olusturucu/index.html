@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cuzdan-olusturucu</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+const testArea = document.createElement('div')
+
+testArea.innerHTML = `
+  <h3>BIP39 Kelime Testi</h3>
+  <textarea id="testMnemonic" placeholder="12 kelimelik test ifadesini buraya gir"></textarea>
+  <button id="validateMnemonic">Doğrula</button>
+  <p id="testResult"></p>
+`
+
+document.querySelector('#app').appendChild(testArea)
+
+document.querySelector('#validateMnemonic').addEventListener('click', () => {
+  const phrase = document.querySelector('#testMnemonic').value.trim()
+  const result = Mnemonic.isValidMnemonic(phrase)
+
+  document.querySelector('#testResult').textContent = result
+    ? 'BIP39 doğrulaması başarılı!'
+    : 'BIP39 doğrulaması başarısız!'
+})
