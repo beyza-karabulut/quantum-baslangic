@@ -9,4 +9,4 @@ Bu depodaki QuantumKayit.sol dosyası, takımın Sepolia ağı üzerinde dağıt
 - Lisans: MIT
 ## Eğitim Raporu
 
-[Blokzincir Eğitim Raporu](./Blokzincir_Egitim_Raporu.docx)
+[Blokzincir Eğitim Raporu](/Quantum_Blokzincir_Raporu.docx)
