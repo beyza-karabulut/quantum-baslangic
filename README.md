@@ -1,4 +1,4 @@
-# Quantum Başlangıç
+# Quantum Blokzincir
 
 ## Proje Hakkında
 
@@ -41,18 +41,16 @@ Bu depodaki `QuantumKayit.sol` dosyası, takımın Sepolia ağı üzerinde dağ�
 ## Proje Dosya Yapısı
 
 - `QuantumKayit.sol`: QuantumKayit akıllı sözleşmesinin Solidity kaynak kodu.
-- `Quantum_Blokzincir_Raporu.docx`: Eğitim sürecinde gerçekleştirilen çalışmaların raporu.
+- `Quantum_Blokzincir_Raporu.docx`: Eğitim sürecinde gerçekleştirilen çalışmaların teknik raporu.
 
-## Eğitim Raporu
+## Dokümantasyon ve Teknik Rapor
 
-Eğitim sürecindeki çalışmaların ayrıntıları ve uygulama raporları için:
+IP01–IP23 arasındaki eğitim çalışmalarının açıklamaları, uygulama adımları ve ilgili ekran görüntüleri teknik raporda sunulmuştur.
 
-[Blokzincir Eğitim Raporu](Quantum_Blokzincir_Raporu.docx)
+[Quantum Blokzincir Teknik Raporu](Quantum_Blokzincir_Raporu.docx)
 
-## Proje Durumu
+## Geliştirme Süreci ve Mevcut Durum
 
-IP01–IP23 arasındaki eğitim çalışmaları tamamlanmış, ilgili uygulamalar gerçekleştirilmiş ve çalışmalar raporlanmıştır.
+Proje kapsamında IP01–IP23 arasındaki eğitim çalışmaları aşamalı olarak gerçekleştirilmiştir. Blokzincir temellerinden akıllı sözleşme geliştirmeye, test ağı üzerinde dağıtım ve etkileşim süreçlerine kadar çeşitli uygulamalar tamamlanmıştır.
 
-## Lisans
-
-MIT
+Çalışmalar sırasında elde edilen çıktılar ve uygulama kanıtları teknik raporda belgelenmiştir. 
